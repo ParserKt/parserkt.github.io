@@ -8,8 +8,8 @@
 }
 
 .github-corner svg {
-    color: #fff;
-    fill: var(--theme-color, #b99342);
+    color: #FFF;
+    fill: var(--theme-color, #FFB300);
     height: 80px;
     width: 80px
 }
