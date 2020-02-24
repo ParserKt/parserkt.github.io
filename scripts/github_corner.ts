@@ -7,11 +7,13 @@ const show = (e) => unflagElement(e, domAttrHidden);
 const hide = (e) => flagElement(e, domAttrHidden);
 
 const animateFadeIn = (e, anim_css) => {
+  if (!e.hidden) return;
   if (e.style.animation !== null) e.style.animation = null;
   e.onanimationend = () => e.classList.remove(anim_css);
   show(e);
 };
 const animateFadeOut = (e, anim_css) => {
+  if (e.hidden) return;
   e.style.animation = "fadeout 1s"; e.style.animationIterationCount = 1;
   e.onanimationend = () => { hide(e); e.classList.add(anim_css); };
 };

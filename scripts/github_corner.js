@@ -3,12 +3,16 @@ var domAttrHidden = 'hidden';
 var show = function (e) { return unflagElement(e, domAttrHidden); };
 var hide = function (e) { return flagElement(e, domAttrHidden); };
 var animateFadeIn = function (e, anim_css) {
+    if (!e.hidden)
+        return;
     if (e.style.animation !== null)
         e.style.animation = null;
     e.onanimationend = function () { return e.classList.remove(anim_css); };
     show(e);
 };
 var animateFadeOut = function (e, anim_css) {
+    if (e.hidden)
+        return;
     e.style.animation = "fadeout 1s";
     e.style.animationIterationCount = 1;
     e.onanimationend = function () { hide(e); e.classList.add(anim_css); };
