@@ -1,16 +1,15 @@
 const
-  flagElement = (e, flag) => e==null? 0 : e.setAttribute(flag,""),
-  unflagElement = (e, flag) => e==null? 0 : e.removeAttribute(flag);
+  flagElement = (e, flag) => e?.setAttribute(flag,"") ?? 0,
+  unflagElement = (e, flag) => e?.removeAttribute(flag) ?? 0;
 
-const domAttrHidden = 'hidden';
-const show = (e) => unflagElement(e, domAttrHidden);
-const hide = (e) => flagElement(e, domAttrHidden);
+const show = (e) => { e.hidden = false };
+const hide = (e) => { e.hidden = true };
 
 const animateFadeIn = (e, anim_css) => {
   if (!e.hidden) return;
-  if (e.style.animation !== null) e.style.animation = null;
+  e.style.animation = null;
   e.onanimationend = () => e.classList.remove(anim_css);
-  show(e);
+  show(e); //with-fadeIn
 };
 const animateFadeOut = (e, anim_css) => {
   if (e.hidden) return;
@@ -23,7 +22,7 @@ const registerGitHubCorner = () => {
     github = document.querySelector('#github'),
     githubHideFrom = document.querySelector('#github-hided') as HTMLElement;
 
-  const GithubPageY_Threshold = (githubHideFrom!=null? githubHideFrom.offsetTop : 400);
+  const GithubPageY_Threshold = githubHideFrom?.offsetTop ?? 400;
 
   const fadeInAnim = "github-animate-opacity";
 

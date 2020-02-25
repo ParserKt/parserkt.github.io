@@ -1,14 +1,12 @@
-var flagElement = function (e, flag) { return e == null ? 0 : e.setAttribute(flag, ""); }, unflagElement = function (e, flag) { return e == null ? 0 : e.removeAttribute(flag); };
-var domAttrHidden = 'hidden';
-var show = function (e) { return unflagElement(e, domAttrHidden); };
-var hide = function (e) { return flagElement(e, domAttrHidden); };
+var flagElement = function (e, flag) { var _a, _b; return _b = (_a = e) === null || _a === void 0 ? void 0 : _a.setAttribute(flag, ""), (_b !== null && _b !== void 0 ? _b : 0); }, unflagElement = function (e, flag) { var _a, _b; return _b = (_a = e) === null || _a === void 0 ? void 0 : _a.removeAttribute(flag), (_b !== null && _b !== void 0 ? _b : 0); };
+var show = function (e) { e.hidden = false; };
+var hide = function (e) { e.hidden = true; };
 var animateFadeIn = function (e, anim_css) {
     if (!e.hidden)
         return;
-    if (e.style.animation !== null)
-        e.style.animation = null;
+    e.style.animation = null;
     e.onanimationend = function () { return e.classList.remove(anim_css); };
-    show(e);
+    show(e); //with-fadeIn
 };
 var animateFadeOut = function (e, anim_css) {
     if (e.hidden)
@@ -18,8 +16,9 @@ var animateFadeOut = function (e, anim_css) {
     e.onanimationend = function () { hide(e); e.classList.add(anim_css); };
 };
 var registerGitHubCorner = function () {
+    var _a, _b;
     var github = document.querySelector('#github'), githubHideFrom = document.querySelector('#github-hided');
-    var GithubPageY_Threshold = (githubHideFrom != null ? githubHideFrom.offsetTop : 400);
+    var GithubPageY_Threshold = (_b = (_a = githubHideFrom) === null || _a === void 0 ? void 0 : _a.offsetTop, (_b !== null && _b !== void 0 ? _b : 400));
     var fadeInAnim = "github-animate-opacity";
     document.body.onscroll = function (scroll) {
         var newY = window.pageYOffset;

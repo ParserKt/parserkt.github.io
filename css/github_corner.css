@@ -3,41 +3,36 @@
   position: fixed;
   z-index: 1;
   border-bottom: 0;
-  right: 0;
-  top: 0;
+  right: 0; top: 0;
 }
 
 .github-corner svg {
-    color: #FFF;
-    fill: var(--theme-color, #FFB300);
-    height: 80px;
-    width: 80px
+  color: #FFF;
+  fill: var(--theme-color, #FFB300);
+  height: 80px; width: 80px
 }
 
-.rotateanim:active {
-    animation: cat-arm .57s ease-in-out
+.rotate-anim:active {
+  animation: cat-arm .57s ease-in-out
 }
 
 .github-corner:hover .octo-arm {
-    animation: cat-arm .57s ease-in-out
+  animation: cat-arm .57s ease-in-out
 }
 
 @keyframes cat-arm {
-    0%,
-    to {
-        -webkit-transform: rotate(0);
-        transform: rotate(0)
-    }
-    20%,
-    60% {
-        -webkit-transform: rotate(-25deg);
-        transform: rotate(-25deg)
-    }
-    40%,
-    80% {
-        -webkit-transform: rotate(10deg);
-        transform: rotate(10deg)
-    }
+  0%,
+  to {
+    transform: rotate(0)
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
 }
 
 .github-animate-opacity {
@@ -50,11 +45,11 @@
   animation-fill-mode: none;
 }
 
-@keyframes fadein {
+@keyframes fade-in {
   0% { opacity: 0 }
   100% { opacity: 1 }
 }
-@keyframes fadeout {
+@keyframes fade-out {
   0% { opacity: 1 }
   100% { opacity: 0 }
 }
