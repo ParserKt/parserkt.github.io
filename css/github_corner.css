@@ -12,10 +12,6 @@
   height: 80px; width: 80px
 }
 
-.rotate-anim:active {
-  animation: cat-arm .57s ease-in-out
-}
-
 .github-corner:hover .octo-arm {
   animation: cat-arm .57s ease-in-out
 }
@@ -37,7 +33,7 @@
 
 .github-animate-opacity {
   opacity: 1;
-  animation: fadein 0.8s;
+  animation: fade-in 0.8s;
   animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
   animation-delay: 0ms;
   animation-iteration-count: 1;

@@ -13,14 +13,14 @@ const animateFadeIn = (e, anim_css) => {
 };
 const animateFadeOut = (e, anim_css) => {
   if (e.hidden) return;
-  e.style.animation = "fadeout 1s"; e.style.animationIterationCount = 1;
+  e.style.animation = "fade-out 1s"; e.style.animationIterationCount = 1;
   e.onanimationend = () => { hide(e); e.classList.add(anim_css); };
 };
 
 const registerGitHubCorner = () => {
   const
-    github = document.querySelector('#github'),
-    githubHideFrom = document.querySelector('#github-hided') as HTMLElement;
+    github = document.querySelector("#github"),
+    githubHideFrom = document.querySelector("#github-hided") as HTMLElement;
 
   const GithubPageY_Threshold = githubHideFrom?.offsetTop ?? 400;
 
