@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256px"
+   height="256px"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="SVGRoot"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="ArgParser.svg"
+   inkscape:export-filename="/home/duangsuse/Documents/ParserKt.svg.2020_02_22_19_31_06.0.svg.png"
+   inkscape:export-xdpi="117.95755"
+   inkscape:export-ydpi="117.95755">
+  <title
+     id="title42">ParserKt Logo</title>
+  <defs
+     id="defs10">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1331"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1068"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#f8873c;stroke-width:1pt;stroke-opacity:1;fill:#f8873c;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4554"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#f8873c;stroke-width:1pt;stroke-opacity:1;fill:#f8873c;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4539"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#f8873c;stroke-width:1pt;stroke-opacity:1;fill:#f8873c;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6125">
+      <stop
+         style="stop-color:#f8873c;stop-opacity:1;"
+         offset="0"
+         id="stop6121" />
+      <stop
+         style="stop-color:#6b70fc;stop-opacity:1"
+         offset="1"
+         id="stop6123" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6067"
+       osb:paint="gradient">
+      <stop
+         id="stop6075"
+         offset="0"
+         style="stop-color:#f8873c;stop-opacity:0.93725491" />
+      <stop
+         id="stop6077"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6024"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6022" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-12,0.5)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient6067"
+       id="linearGradient6084"
+       x1="66.5"
+       y1="112"
+       x2="-21.020714"
+       y2="330.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       gradientTransform="translate(-12,0.5)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient6125"
+       id="linearGradient6127"
+       x1="93.5"
+       y1="123.5"
+       x2="222.28403"
+       y2="79.838516"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       gradientTransform="translate(-12,0.5)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient6125"
+       id="linearGradient4537"
+       x1="30.049294"
+       y1="131.69363"
+       x2="215.98912"
+       y2="249.19363"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6125"
+       id="linearGradient1066"
+       x1="85.178894"
+       y1="128.75002"
+       x2="223.82111"
+       y2="128.75002"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(22,37)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="115.6683"
+     inkscape:cy="147.32524"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1272"
+     inkscape:window-height="687"
+     inkscape:window-x="320"
+     inkscape:window-y="197"
+     inkscape:window-maximized="0"
+     inkscape:grid-bbox="true"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-rotation="0" />
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ParserKt Logo</dc:title>
+        <dc:date>2020-2-22</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>duangsuse</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:rights>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#6c5353;fill-opacity:1;stroke:url(#linearGradient6084);stroke-width:15;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 59,36.5 -46.5,190"
+       id="path44"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:url(#linearGradient6127);stroke-width:15;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 231,220 c 27.62927,-38.74132 -93.91498,-82.33884 -82,-83.5 41.22453,-4.01749 47.34736,-8.94555 56.08782,-13.3697 C 277.61505,86.419284 236.97981,106.23094 180.12017,57.934181 117.73522,4.9442083 52.5,74 52.5,74"
+       id="path6086"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssc" />
+    <path
+       style="fill:none;stroke:url(#linearGradient4537);stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 57,78.5 c 0,0 71.83676,169.71411 89.5,169 87.00885,-3.51769 -115.88234,-93.35968 -114,-82.5"
+       id="path4529"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
+    <circle
+       style="fill:#ffffff;stroke:none;stroke-width:4.00036;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="path4850"
+       cx="147.99997"
+       cy="229.5"
+       r="2.5" />
+  </g>
+</svg>
